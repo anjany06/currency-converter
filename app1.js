@@ -1,7 +1,8 @@
-const BASE_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
+const API_KEY = "b34e1cd05d-e9e74d87b0-sopa2y"
+const BASE_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/latest`;
 
 // Assuming countryList is an object like this:
-const countryList = {
+const country_List = {
   AED: "AE",
   AFN: "AF",
   XCD: "AG",
